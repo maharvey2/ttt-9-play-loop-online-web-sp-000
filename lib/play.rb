@@ -36,3 +36,11 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+loop do
+  puts turn(board)
+end
+#move(board, index, current_player = "X")
+#input_to_index(user_input)
+#valid_move?(board, index)
+end
